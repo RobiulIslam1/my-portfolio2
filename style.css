@@ -1,0 +1,62 @@
+body{
+    margin: 0%;
+
+}
+.section-first{
+    display: flex;
+    width: 100%;
+   margin-bottom: 10px;
+}
+.div-one{
+    width: 50%;
+    margin: 5%;
+}
+.sub-div-one{
+    border-left: 5px solid rgb(235, 84, 79);
+}
+.first-p{
+    text-align: justify;
+}
+div a{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(19, 211, 236) ,rgb(211, 211, 230));
+    width: 5px 40px;
+    border-radius: 5%;
+    padding: 5%;
+    
+
+}
+.div-one img{
+    width: 100%;
+}
+#my-mission{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.div-2{
+    display: flex;
+    margin-bottom: 5px;
+   
+    
+}
+.div-two{
+    width:30%;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.div-two img{
+    width: 50%;
+}
+#mission{
+    background-color: navajowhite;
+    
+
+}
+#vision{
+    background-color: palegreen;
+}
+#goal{
+    background-color: skyblue;
+}
