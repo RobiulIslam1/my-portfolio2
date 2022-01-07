@@ -2,37 +2,43 @@ body{
     margin: 0%;
 
 }
+section{
+    margin-bottom: 40px;
+}
 .section-first{
     display: flex;
-    width: 100%;
    margin-bottom: 10px;
 }
 .div-one{
-    width: 50%;
-    margin: 5%;
+    padding-left: 5%;
 }
 .sub-div-one{
     border-left: 5px solid rgb(235, 84, 79);
 }
 .first-p{
     text-align: justify;
+    
 }
-div a{
+#hire{
     text-decoration: none;
     background-image: linear-gradient(rgb(19, 211, 236) ,rgb(211, 211, 230));
     width: 5px 40px;
-    border-radius: 5%;
-    padding: 5%;
+    border-radius: 5px;
+    padding:5px;
     
 
 }
 .div-one img{
-    width: 100%;
+    float: right;
+    margin-left: 300px;
+    
+    ;
 }
 #my-mission{
     text-align: center;
     font-size: 40px;
     margin-bottom: 15px;
+    padding-left: 5%;
 }
 .div-2{
     display: flex;
@@ -41,9 +47,9 @@ div a{
     
 }
 .div-two{
-    width:30%;
-    margin-left: 5px;
-    border-radius: 5px;
+    width:28%;
+    margin-left: 3%;
+    border-radius: 50px;
     padding: 10px;
 }
 .div-two img{
@@ -59,4 +65,61 @@ div a{
 }
 #goal{
     background-color: skyblue;
+}
+.section-3rd{
+    display: flex;
+ 
+}
+.third-div{
+    width:100%
+}
+#pic img{
+    width:30%;
+    margin: 5%;
+    padding-left: 2px;
+}
+#docs{
+    margin: 5%;
+    width: 70%;
+    padding-right: 200px;
+    
+}
+#read{
+    text-decoration: none;
+    background-image: linear-gradient(blue, yellow);
+    padding: 2%;
+    border-radius: 5px;
+   width: 10px, 100px;
+   
+}
+.section-4th{
+    display: flex;
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#know{
+    padding-left: 5%;
+}
+.qualification{
+    width: 50%;
+
+}
+#link{
+    text-decoration: none;
+    background-image: linear-gradient(orange ,skyblue);
+    padding: 5px;
+    border-radius: 5px;
+}
+.qualification img{
+    width: 70%;
+}
+#know{
+    width: 70%;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#boys{
+    width: 30%;
 }
